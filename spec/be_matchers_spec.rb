@@ -19,3 +19,10 @@ RSpec.describe 'be matchers' do
     expect(my_hash[:b]).to be_nil
   end
 end
+
+# expect({}).to be_empty
+# expect([10, 20, 30]).to all(be_even)
+# expect(0, 1, 2]).to all(be >= 0)
+
+# truthy = ['hello', 0, -10, [], 99.9, :hello, true, [1, 2, 3]]
+# falsy = [false, nil]
