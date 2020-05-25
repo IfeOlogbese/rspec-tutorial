@@ -20,3 +20,7 @@ RSpec.describe [:usa, :canada, :mexico] do
     expect(subject.sample).to eq(:usa).or eq(:canada).or eq(:mexico)
   end
 end
+
+# expect('firetruck').to start_with('fire').and end_with('truck')
+# expect(20).to be_even.and respond_to(:times)
+# expect([4, 8, 15, 16, 23, 42]).to include(42).and start_with(4, 8, 15)
