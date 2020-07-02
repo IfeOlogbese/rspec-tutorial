@@ -5,6 +5,7 @@ class Person
   end
 end
 
+# https://stackoverflow.com/a/57962004
 RSpec.describe Person do
   describe 'regular double' do
     it 'can implement any method' do
